@@ -95,8 +95,8 @@ const main = async () => {
   closeButton.addEventListener("click", hideToast);
 
   const status = await getStatus();
-  showToast();
   if (status === "출첵안함") {
+    showToast();
   }
 };
 
